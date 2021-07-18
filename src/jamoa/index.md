@@ -20,7 +20,7 @@ interfeys ko'tarib olib chiqish va uni rivojlantirishni ham o'z ichiga oladi.
 ## Jamoa
 
 ### Genemator
-
+<br/>
 <img src="https://avatars.githubusercontent.com/u/54666588?v=4" width="120px" align="left" style="margin-right: 16px;">
 
 **Name:** Sokhibqiron Orzikulov
