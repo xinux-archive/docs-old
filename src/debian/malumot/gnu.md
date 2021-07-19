@@ -75,9 +75,8 @@ Standart Debian tizimida buyruqlar qobig'ini to'g'ridan-to'g'ri Linux xostida is
 Agar siz X oyna tizimida bo'lsangiz, 1 tugmachasini bosish orqali belgi konsoliga kirish huquqiga ega bo'lasiz Ctrl-Alt-F1, ya'ni left-Ctrl-keythe left-Alt-key, va tugmachalari F1-keybir-biriga bosiladi. Odatda virtual konsol 7 da ishlaydigan X Window tizimiga bosish orqali qaytishingiz mumkin Alt-F7.
 
 Shu bilan bir qatorda buyruq satridan boshqa virtual konsolga, masalan, konsol 1 ga o'tishingiz mumkin.
-```chvt 1
-```
 
+```chvt 1```
 ### 1.1.7. Buyruqning buyrug'ini qanday qoldirish kerak
 Qobiq faoliyatini yopish uchun buyruq satriga siz Ctrl-D, ya'ni left-Ctrl-keyva d-keybosilganlarni yozasiz. Agar siz belgi konsolida bo'lsangiz, kirish buyrug'iga shu bilan qaytasiz. Ushbu boshqaruv belgilari katta harf bilan "boshqaruv D" deb nomlangan bo'lsa ham, Shift tugmachasini bosishingiz shart emas. Qisqa qo'l ifodasi, ^Duchun ham ishlatiladi Ctrl-D. Shu bilan bir qatorda, siz "chiqish" yozishingiz mumkin.
 
@@ -88,11 +87,12 @@ Fayl ishlashi yaxshilangan ishlashi uchun xotirada ma'lumotlarni keshlashni o'z 
 
 Siz tizimni odatdagi ko'p foydalanuvchi rejimida buyruq satridan o'chirib qo'yishingiz mumkin.
 
-```shutdown -h now
-```
+```shutdown -h now```
+
 Siz tizimni bitta foydalanuvchi rejimida buyruq satridan o'chirib qo'yishingiz mumkin.
-```# poweroff -i -f
-```
+
+```poweroff -i -f```
+
 Shu bilan bir qatorda, siz " " o'z ichiga olgan " " bo'lsa, o'chirish uchun Ctrl-Alt-Delete(The left-Ctrl-key, the left-Alt-Keyva Deletetugmalari bir-biriga bosilgan) yozishingiz mumkin. Qarang inittab (5) ma'lumot olish uchun./etc/inittabca:12345:ctrlaltdel:/sbin/shutdown -t1 -a -h now
 
 6.9.6-bo'limga qarang , "SSH-da masofaviy tizimni qanday o'chirish kerak" .
