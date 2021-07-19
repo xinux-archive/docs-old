@@ -182,7 +182,7 @@ module.exports = {
             "/debian/malumot/": [{
                 title: "Ma'lumotlar",
                 collapsable: false,
-                children: ["", "why-debian"],
+                children: ["", "why-debian", "what-is-debian", "gnu"],
             }, ],
             "/debian/jamoa/": [{
                 title: "Jamoamiz",
