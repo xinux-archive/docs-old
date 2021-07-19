@@ -40,8 +40,8 @@ batafsil o'rnatish bo'yicha ko'rsatmalar mavjud. Va, nashr yozuvlarini
 [bu yerda](https://www.debian.org/releases/stable/releasenotes) topishingiz
 mumkin.
 
-<<<<<<< HEAD Internetga ulanishingizga qarab siz quyidagilardan birini yuklab
-olishingiz mumkin:
+Internetga ulanishingizga qarab siz quyidagilardan birini yuklab olishingiz
+mumkin:
 
 -   A kichik o'rnatish image : tez yuklab olish mumkin va olinadigan disk
     ustiga, ro'yxatdan o'tishingiz kerak. Buni ishlatish uchun sizga Internetga
