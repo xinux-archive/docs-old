@@ -1,1 +1,0 @@
-# Solishtirish haqida
