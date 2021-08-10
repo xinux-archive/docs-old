@@ -15,4 +15,4 @@ Xinux jamiyati va guruhlari Genemator tomonidan yaratilgan hisoblanib, Xinux
 jamiyati O'zbekistondagi Linuxga bo'lgan munosabatlarni yaxshilashni ko'zlagan.
 Masalan, Linux paketlarini yuklash O'zbekistondagi ichki tarmoqlar orqali amalga
 oshirish imkoniyatlari yoki O'zbekcha tarjimayu O'zbek tiliga moslangan
-interfeys ko'tarib olib chiqish va uni rivojlantirishni ham o'z ichiga oladi. ..
+interfeys ko'tarib olib chiqish va uni rivojlantirishni ham o'z ichiga oladi.
