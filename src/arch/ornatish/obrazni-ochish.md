@@ -83,7 +83,7 @@ Hozir har bir kompyuter o'zini kirish uslubini ko'rib chiqamiz:
 |      TOSHIBA       |      | Protege, Satellite, Tecra |        F12        |   F1, Esc   |
 |      TOSHIBA       |      |        Equium F12         |        F12        |     F12     |
 
-## Ona Platalar (Statsionarkalar)
+## Ona Platalar (Motherboard)
 
 | Ishlab Chiqaruvchi | Turi | Modeli | Boot Menyu Kaliti | BIOS Kaliti |
 | :----------------: | :--: | :----: | :---------------: | :---------: |
