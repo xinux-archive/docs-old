@@ -86,7 +86,12 @@ module.exports = {
 				{
 					title: "O'rnatish",
 					collapsable: false,
-					children: ["", "yuklab-olish", "qurilmaga-yozish"],
+					children: [
+						"",
+						"yuklab-olish",
+						"qurilmaga-yozish",
+						"obrazni-ochish",
+					],
 				},
 			],
 			"/arch/jamoa/": [

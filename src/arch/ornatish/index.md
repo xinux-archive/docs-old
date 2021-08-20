@@ -13,16 +13,12 @@ bir muammo albatta o'z yechimiga ega. Faqat biroz vaqt ketqazib qilingan
 urinishlargina sizni oldinga yetaklaydi. Shunday ekan, hech qachon chekinmang!
 Endi kelingizlar, o'rnatish jarayonini komponentlarga bo'lib olamiz:
 
--   [Yuklab olish bosqichi](./yuklab-olish.md)
--   [Qurilmaga yozish bosqichi](./qurilmaga-yozish.md)
+## Bosqichlar
 
-## Tayyorgarlik bosqichi
-
-Arch Linux o'rnatish jarayonini boshlash uchun, avvalambor uni bironta qurilmaga
-yozib olish, so'ngra shu qurilmani ichiga boot qilish kerakdir.
-
-## Asosiy komponent
-
-### Keymap larni to'girlab olish
-
-## Qo'shimcha
+-   [Yuklab olish bosqichi](./yuklab-olish.md) - Arch Linux obrazini internetdan
+    yuklab olamiz
+-   [Qurilmaga yozish bosqichi](./qurilmaga-yozish.md) - Ushbu bosqichda Arch
+    Linux o'rnatish uchun shu Arch Linux obrazini disk yoki fleshkaga yozib
+    olamiz
+-   [Obrazni kompyuterda ochamiz](./obrazni-ochish.md) - Fleshkaga yozilgan
+    obrazni kompyuterda ochamiz va o'rnatish bosqichiga kirib boramiz
