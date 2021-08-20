@@ -2,7 +2,7 @@
 
 :::warning Eslatma!
 
-Quyidagi qo'llanma Arch Linuxning Yanvar 2021 reliziga ishlab chiqilgan. Agar
+Quyidagi qo'llanma Arch Linuxning Avgust 2021 reliziga ishlab chiqilgan. Agar
 qo'llanma eskirgan bo'lsa, muallifni bu haqida habardor qiling!
 
 :::
@@ -13,8 +13,18 @@ bir muammo albatta o'z yechimiga ega. Faqat biroz vaqt ketqazib qilingan
 urinishlargina sizni oldinga yetaklaydi. Shunday ekan, hech qachon chekinmang!
 Endi kelingizlar, o'rnatish jarayonini komponentlarga bo'lib olamiz:
 
--   [Asosiy komponent](#asosiy-komponent)
+- [Yuklab olish bosqichi](./yuklab-olish.md)
+- [Qurilmaga yozish bosqichi](./qurilmaga-yozish.md)
+
+## Tayyorgarlik bosqichi
+
+Arch Linux o'rnatish jarayonini boshlash uchun, avvalambor uni bironta qurilmaga
+yozib olish, so'ngra shu qurilmani ichiga boot qilish kerakdir.
+
+
 
 ## Asosiy komponent
 
-\*\* **Qolgani Yozilmoqda!** \*\*
+### Keymap larni to'girlab olish
+
+## Qo'shimcha

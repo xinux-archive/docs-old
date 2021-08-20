@@ -60,22 +60,8 @@ module.exports = {
 				link: "/arch/malumot/",
 			},
 			{
-				text: "Distribut",
-				ariaLabel: "Distributlar",
-				items: [
-					{
-						text: "Manjaro",
-						link: "/arch/distribut/Manjaro/",
-					},
-					{
-						text: "Black Arch",
-						link: "/arch/distribut/Black Arch/",
-					},
-					{
-						text: "Xeonix",
-						link: "/arch/distribut/Xeonix/",
-					},
-				],
+				text: "O'rnatish",
+				link: "/arch/ornatish/",
 			},
 			{
 				text: "Tarmoq",
@@ -93,7 +79,14 @@ module.exports = {
 				{
 					title: "Ma'lumotlar",
 					collapsable: false,
-					children: ["", "ornatish"],
+					children: [""],
+				},
+			],
+			"/arch/ornatish/": [
+				{
+					title: "O'rnatish",
+					collapsable: false,
+					children: ["", "yuklab-olish","qurilmaga-yozish"],
 				},
 			],
 			"/arch/jamoa/": [
@@ -101,48 +94,6 @@ module.exports = {
 					title: "Jamoamiz",
 					collapsable: false,
 					children: [""],
-				},
-			],
-			"/arch/distribut/Manjaro/": [
-				{
-					title: "Manjaro",
-					collapsable: false,
-					children: [
-						"",
-						"/arch/distribut/Manjaro/ornatish",
-						"/arch/distribut/Manjaro/maslahatlar",
-						"/arch/distribut/Manjaro/interfeys",
-						"/arch/distribut/Manjaro/solishtirish",
-						"/arch/distribut/Manjaro/yuklash",
-					],
-				},
-			],
-			"/arch/distribut/Black Arch/": [
-				{
-					title: "Black Arch",
-					collapsable: false,
-					children: [
-						"",
-						"/arch/distribut/Black Arch/ornatish",
-						"/arch/distribut/Black Arch/maslahatlar",
-						"/arch/distribut/Black Arch/interfeys",
-						"/arch/distribut/Black Arch/solishtirish",
-						"/arch/distribut/Black Arch/yuklash",
-					],
-				},
-			],
-			"/arch/distribut/Xeonix/": [
-				{
-					title: "Xeonix",
-					collapsable: false,
-					children: [
-						"",
-						"/arch/distribut/Xeonix/ornatish",
-						"/arch/distribut/Xeonix/maslahatlar",
-						"/arch/distribut/Xeonix/interfeys",
-						"/arch/distribut/Xeonix/solishtirish",
-						"/arch/distribut/Xeonix/yuklash",
-					],
 				},
 			],
 		},

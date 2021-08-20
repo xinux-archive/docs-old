@@ -1,1 +1,0 @@
-# Respbian haqida infolar
