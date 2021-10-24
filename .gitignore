@@ -112,3 +112,4 @@ build
 dist
 src/.vuepress/dist
 out
+.DS_Store
