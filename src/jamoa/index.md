@@ -11,7 +11,7 @@ birgalikda o'rganib chiqishga qaratilgan.
 
 ## Kelib chiqishi
 
-Xinux jamiyati va guruhlari Genemator tomonidan yaratilgan hisoblanib, Xinux
+Xinux jamiyati va guruhlari UwUssimo tomonidan yaratilgan hisoblanib, Xinux
 jamiyati O'zbekistondagi Linuxga bo'lgan munosabatlarni yaxshilashni ko'zlagan.
 Masalan, Linux paketlarini yuklash O'zbekistondagi ichki tarmoqlar orqali amalga
 oshirish imkoniyatlari yoki O'zbekcha tarjimayu O'zbek tiliga moslangan

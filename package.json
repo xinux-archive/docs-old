@@ -5,10 +5,10 @@
 	"main": ".github/archive/main.js",
 	"description": "Xinux O'zbekiston jamiyatiga xush kelibsiz",
 	"authors": {
-		"name": "Geno Ferollo a.k.a Genemator",
-		"email": "genemators@gmail.com"
+		"name": "UwUssimo Robinson",
+		"email": "uwussimo@icloud.com"
 	},
-	"author": "Geno Ferollo <genemators@gmail.com>",
+	"author": "UwUssimo Robinson <uwussimo@icloud.com>",
 	"contributors": [
 		"Muhammadyusuf Abdurakhimov"
 	],
@@ -34,7 +34,6 @@
 	},
 	"homepage": "https://github.com/xinuxuz/docs#readme",
 	"keywords": [
-		"Genemator",
 		"Docs",
 		"Docster",
 		"Vue",
