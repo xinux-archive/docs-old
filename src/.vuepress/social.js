@@ -28,8 +28,8 @@ module.exports = [
 		text: "Discord",
 		items: [
 			{
-				text: "Asosiy kanal",
-				link: "https://discord.gg/fH4PYYQ3Qy",
+				text: "Mad Maids",
+				link: "https://maid.uz/discord",
 				target: "_blank",
 			},
 		],

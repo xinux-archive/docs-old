@@ -22,12 +22,7 @@ module.exports = {
 				text: "Tarmoq",
 				ariaLabel: "Tarmoqlarimiz",
 				items: socials,
-			},
-			{
-				text: "Wiki",
-				link: "https://wiki.xinux.uz",
-				target: "_self",
-			},
+			}
 		],
 		sidebar: {
 			"/malumot/": [
@@ -67,11 +62,6 @@ module.exports = {
 				text: "Tarmoq",
 				ariaLabel: "Tarmoqlarimiz",
 				items: socials,
-			},
-			{
-				text: "Wiki",
-				link: "https://wiki.xinux.uz",
-				target: "_self",
 			},
 		],
 		sidebar: {
