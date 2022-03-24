@@ -1,9 +1,10 @@
-# O'rnatish
+## Biosga orqali fleshkaga kirish
 Obraz yozilgan fleshkaga kompyuterning bios sitemasi orqali kirib olgandan so'ng
 <span style="color: red">root</span>@archiso~ degan yozuv chiqadi.
 Shundan so'ng o'rnatish jarayoni boshlanadi. Avval klaviaturaning tilini
 sozlab olish kerak. Buning uchun quyidagi buyruqni yozamiz: <code>loadkeys us</code>.
 Ortqicha noqulayliklarning oldini olish maqsadida <code>clear</code> buyrug'i bilan oynadagi keraksiz yozuvlarni o'chiramiz.
+## Internetga ulanish
 Archisoni o'rnatishda internet talab qilingani bois wifi yoki simli internet (Ethernet)ga ulanamiz.
 Buning uchun <code>ip a</code> buyrug'i bilan ip adress haqida ma'lumot olishimiz kerak.
 Wifiga ulanish buyrug'i: <code>iwctl</code> oynada <span style="color: red">root</span>@archiso~
@@ -29,6 +30,7 @@ Wifiga ulangandan so'ng [<span style="color: green">iwctl</span>] buyruq maydoni
 
 <span style="color: red">root</span>@archiso~ buyruq maydoniga o'tib internet ishlayotganini tekshiramiz. Buning uchun
 google.com saytiga so'rov jo'natamiz: <code>ping -c 8.8.8.8</code>. Agar so'rovga javob qaytsa, demak, internetga ulanganmiz.
+## Hard diskni taqsimlash
 Endi kompyuter hard diskining xotirasini taqsimlashimiz kerak.  <code>lsblk</code> buyrug'i  orqali diskimizning tuzilishini tekshirib olamiz va bizda quyidagicha jadval ekranda paydo bo'ladi:
 
 <span style="color: red">root</span>@archiso~   ```lsblk```
@@ -61,13 +63,20 @@ Endi  ```lsblk``` buyrug'ini yozamiz va disklarimizni tekshirib olamiz:
 | SDA2 | 7:2     | 0  | 1G   | 0  | part | [SWAP]        |
 | SDA3 | 7:3     | 0  | 254G | 0  | part | /mnt          |
 
+
+## Bazaviy fayllar o'rnatish
 Endi <span style="color:red">mnt</span> jildiga archning bazaviy fayllarini o'rnatishimiz kerak. ```pacstrap /mnt base base-devel linux linux-firmware nano openssh networkmanager netctl``` buyrug'ini yozamiz va arch linuxni bazaviy ma'lumotlari 
 o'rnatilgandan so'ng ```genfstab -U -p /mnt >> /mnt/etc/fstab``` buyrug'ini yozamiz. Bizga chroot huquqi kerak bo'ladi va ```arch-chroot /mnt``` buyrug'i orqali /mnt ga chrootni ulaymiz.
 Oynamizda [root@archiso/]# nomli buyruq kiritadigan placeholder chiqadi. Hostga ulashimiz kerak. Buning uchun
 quyidagicha buyruq yozamiz: ```echo "arch linux uchun sistema nomi" > /etc/hostname```. Endi root uchun parol yaratib olamiz: 
 ```passwd```. Parolni yozamiz. Bu jarayonda yozgan parolingiz ko'rinmaydi.
 Endi user yaratib olamiz. ```useradd -mG wheel user nomi``` buyrug'ini yozamiz va user uchun parol yaratamiz ```passwd``` buyrug'ini yozib parol kiritamiz.
-Endi <span style="color:cyan">visudo</span> ni tahrirlashimiz kerak ```EDITOR=nano visudo``` (biz <span style="color:crimson"> nano</span> editoridan foydalanishni ma'qul ko'rdik. Xohishga ko'ra <span style="color:cyan"> vim</span> editoridan foydalanish mumkin) buyrug'ini yozamiz va <span style="color:cyan">%wheel ALL=(ALL) ALL</span> degan komandani kommentariyadandan chiqarib ```ctrl+o``` buyrug'i bilan saqlab ```ctrl+x``` bilan oynadan chiqamiz.
+Endi <span style="color:cyan">visudo</span> ni tahrirlashimiz kerak ```EDITOR=nano visudo```
+(biz <span style="color:crimson"> nano</span> editoridan foydalanishni ma'qul ko'rdik. Xohishga ko'ra <span style="color:cyan"> vim</span> editoridan foydalanish mumkin) buyrug'ini yozamiz va <span style="color:cyan">%wheel ALL=(ALL) ALL</span> degan komandani kommentariyadandan chiqarib ```ctrl+o``` buyrug'i bilan saqlab 
+```ctrl+x``` bilan oynadan chiqamiz.
+
+## Grub yordamida sistemani configuratsiya qilish
+
 Kerakli fayllarni yuklab olamiz ```pacman -S grub efibootmgr dosfstools os-prober (protsessor intel bolsa: intel-ucode agar amd bolsa amd-ucode) ```yozamiz. Grub o'rnatildi endi kernelni qaytadan kompilatsiya qilamiz ```mkinitcpio -p linux``` buyrug'ini yozamiz.
 Operatsion sistema tilini belgilab olishimiz kerak. ```nano /etc/locale.gen``` yozamiz va default holda ingliz tilini tanlaymiz. Buning uchun <span style="color:crimson"> en_US.UTF-8 UTF-8</span> deb nomlangan joyni komentariyadan chiqarib olamiz va saqlaymiz.
 ```locale-gen``` buyrug'i bilan til faylini ishga tushiramiz. Bizda <span style="color:crimson"> shell</span> <span style="color:cyan"> bash</span> deb belgilangan. Uni xohlasak <span style="color:cyan"> zsh</span> yoki <span style="color:#8A2BE2"> fish</span>ga o'zgatirishimiz mumkin.
@@ -78,6 +87,9 @@ Klaviatura tilini belgilashimiz kerak. ```echo "KEYMAP=en_US.UTF-8" > /etc/vcons
 Shahrimizni belgilashimiz kerak: ```ln -sf /usr/share/zoneinfo/Asia/Tashkent /etc/localtime``` buyrug'ini yozib vaqt mintaqasini sozlab oldik.
 Endi user'imizga kirib olishimiz kerak. Buni ```su usernomi```  buyrug'i bilan amalga oshiramiz. ```grub-install  --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub --recheck``` buyrug'ini yozib grub-install'i bajarib o'rnatilgan diskni qayta kompilatsiya qilamiz.
 Grubni o'rnatdik, endi uni konfiguratsiya qilamiz. ```grub-mkconfig -o /boot/grub/grub.cfg``` buyrug'ini yozib grubning konfiguratsiya faylini generatsiya qildik.
+
+## Neofetch
+
 Ba'zi narsalarni ko'rish uchun bizga python va neofetch kerak  bo'ladi ```pacman -S python ranger neofetch``` buyrug'ini yozamiz. Endi ba'zi narsalarni faollashtirishimiz kerak bo'ladi 
 buning uchun ```systemctl enable sshd.service && systemctl enable  NetworkManager``` buyrug'ini yozamiz.
 Endi ```exit``` buyrug'ini yozib sistema o'rnatuvchidan chiqamiz.  ```exit``` va biz <span style="color: red">root</span>@archiso~ atmosferasiga o'tamiz.
