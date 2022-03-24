@@ -81,6 +81,7 @@ module.exports = {
 						"yuklab-olish",
 						"qurilmaga-yozish",
 						"obrazni-ochish",
+						"ISOornatish",
 					],
 				},
 			],
