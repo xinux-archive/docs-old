@@ -1,6 +1,6 @@
 # Qurilmadagi obrazni ochish
 
-Har xil kompyuterlarda fleshkani ichiga har xil uslublar bilan boot qilinadi.
+Har xil kompyuterlarda fleshka ichiga har xil uslublar bilan boot qilinadi.
 Hozir har bir kompyuter o'zini kirish uslubini ko'rib chiqamiz:
 
 [[toc]]

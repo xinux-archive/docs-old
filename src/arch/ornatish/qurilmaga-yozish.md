@@ -4,7 +4,7 @@ Yuklab olingan ISO formatdagi Arch Linux obrazini endi biron fleshka yoki
 qurilmaga yozish kerak. Imkon qadar 4GB dan kam bo'lmagan USB3.0 lik qurilma
 ishlatish tavsiya etiladi, qolgan optsiyalar o'zingiz xohishingizga qarab
 tanlashingiz mumkin. Fleshkani ulab turib bir bor uni formatlash orqali tozalab
-yuvorish tavsiya etiladi (ko'pincha ISO ni yozadigan dasturlar bilan kelib
+yuborish tavsiya etiladi (ko'pincha ISO ni yozadigan dasturlar bilan kelib
 chiqadigan muammolar oldini oladi). Formatlashdan maqsad esa fleshkani ichidagi
 hamma razdel (partition)larni o'chirib tashashdir. So'ngra, obrazni qurilmaga
 yozadigan dastur olish kerak bo'ladi. Bunda biz
