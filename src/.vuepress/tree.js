@@ -22,7 +22,7 @@ module.exports = {
 				text: "Tarmoq",
 				ariaLabel: "Tarmoqlarimiz",
 				items: socials,
-			}
+			},
 		],
 		sidebar: {
 			"/malumot/": [

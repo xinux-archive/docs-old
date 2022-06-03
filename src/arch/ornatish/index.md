@@ -22,5 +22,5 @@ Endi kelingizlar, o'rnatish jarayonini komponentlarga bo'lib olamiz:
     olamiz
 -   [Obrazni kompyuterda ochamiz](./obrazni-ochish.md) - Fleshkaga yozilgan
     obrazni kompyuterda ochamiz va o'rnatish bosqichiga kirib boramiz
--   [Yozib olingan ISOni o'rnatamiz](./ISOornatish.md)- bios tizimidan ISO yozilgan fleshkagani
-    ichiga kiramiz va o'rnatishni boshlaymiz
+-   [Yozib olingan ISOni o'rnatamiz](./ISOornatish.md)- bios tizimidan ISO
+    yozilgan fleshkagani ichiga kiramiz va o'rnatishni boshlaymiz
