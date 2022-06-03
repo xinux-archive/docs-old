@@ -40,7 +40,7 @@ Arch Linux dasturiy ta'minotning so'nggi barqaror versiyalarini o'rnatishni
 qo'llab-quvvatlashga harakat qiladi. Butun tizimni qayta tiklash yoki
 yangilanishni bir versiyadan ikkinchisiga ishga tushirmasdan, bir martalik
 o'rnatish va uzluksiz yangilanishlarni ta'minlaydigan suzuvchi relizlar tizimiga
-asoslangan. Bir buyruqni bajarish bilan siz Arch Linux-ga asoslangan tizimni
+asoslangan. Bir buyruqni bajarish bilan siz Arch Linuxga asoslangan tizimni
 dolzarb saqlashingiz mumkin.
 
 Arch GNU/Linux foydalanuvchilari uchun mavjud bo'lgan ko'plab yangi
