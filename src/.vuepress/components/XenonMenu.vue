@@ -1,13 +1,13 @@
 <template>
 	<div class="xenon-option">
 		<label
-			><a href="https://github.com/xinuxuz/xenon"
+			><a href="https://github.com/uzinfocom-org/xenon"
 				>Xenon {{ xenon }}</a
 			></label
 		>
 		|
 		<label
-			><a href="https://github.com/xinuxuz/docs"
+			><a href="https://github.com/uzinfocom-org/docs"
 				>Xinux {{ xinux }}</a
 			></label
 		>

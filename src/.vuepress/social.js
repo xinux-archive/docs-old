@@ -14,12 +14,7 @@ module.exports = [
 		items: [
 			{
 				text: "Diskussiya",
-				link: "https://github.com/xinuxuz/community/discussions",
-				target: "_blank",
-			},
-			{
-				text: "Mavzular",
-				link: "https://github.com/xinuxuz/community/issues?q=",
+				link: "https://github.com/orgs/uzinfocom-org/discussions",
 				target: "_blank",
 			},
 		],
@@ -28,8 +23,8 @@ module.exports = [
 		text: "Discord",
 		items: [
 			{
-				text: "Mad Maids",
-				link: "https://maid.uz/discord",
+				text: "Uzinfocom",
+				link: "https://oss.uzinfocom.uz/discord",
 				target: "_blank",
 			},
 		],

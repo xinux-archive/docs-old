@@ -1,6 +1,6 @@
-<p align="center"><a href="https://xinux.uz" target="_blank"><img height="300" width="300" src="./src/.vuepress/public/xinux.png"/></a></p>
+<p align="center"><a href="https://oss.uzinfocom.uz" target="_blank"><img height="300" width="300" src="./src/.vuepress/public/xinux.png"/></a></p>
 <h2 align="center">Xinux</h2>
-<p align="center"><b><a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a> tomonidan yasalgan Linux qo'llanmasi.</b></p>
+<p align="center"><b><a href="https://oss.uzinfocom.uz" target="_blank">Xinux Jamiyati</a> tomonidan yasalgan Linux qo'llanmasi.</b></p>
 <p align="center"><a href="https://app.netlify.com/sites/xinux/deploys"><img src="https://api.netlify.com/api/v1/badges/07f4eca8-3b27-4b8c-9ec1-bd86567f8613/deploy-status"></a></p>
 
 ## Eslatmalar
@@ -23,7 +23,7 @@ kommandalarni ishga tushiring:
 
 ```bash
 # Proyektni klon qiling
-git clone https://github.com/xinuxuz/docs.git ./xinux
+git clone https://github.com/uzinfocom-org/docs.git ./xinux
 
 # Proyektni ichiga kiring
 cd xinux
@@ -39,7 +39,7 @@ yarn run build && mv src/.vuepress/dist ./dist
 ```
 
 > Bu proyekt hozirda faol rivojlantirilmoqda. Agarda bironta xatolikka duchor
-> bo'lsangiz, xatolik haqida [e'lon](https://github.com/xinuxuz/docs/issues/new)
+> bo'lsangiz, xatolik haqida [e'lon](https://github.com/uzinfocom-org/docs/issues/new)
 > qoldirishni unutmang.
 
 ---
@@ -52,6 +52,6 @@ yarn run build && mv src/.vuepress/dist ./dist
 > litzensiyasi bo'yicha darmoqdir. Ko'proq ma'lumotga ega bo'lish uchun
 > [LICENSE](license) ni ko'zdan kechiring.
 
-<p align="center">Barcha huquqlar himoyalangan &copy; 2021 <a href="https://xinux.uz" target="_blank">Xinux Jamiyati</a></p>
+<p align="center">Barcha huquqlar himoyalangan &copy; 2021 <a href="https://oss.uzinfocom.uz" target="_blank">Xinux Jamiyati</a></p>
 
-<p align="center"><a href="https://github.com/xinuxuz/docs/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
+<p align="center"><a href="https://github.com/uzinfocom-org/docs/blob/master/license"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Litsenziya&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=000000&colorB=ffffff"/></a></p>
