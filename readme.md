@@ -39,8 +39,9 @@ yarn run build && mv src/.vuepress/dist ./dist
 ```
 
 > Bu proyekt hozirda faol rivojlantirilmoqda. Agarda bironta xatolikka duchor
-> bo'lsangiz, xatolik haqida [e'lon](https://github.com/uzinfocom-org/docs/issues/new)
-> qoldirishni unutmang.
+> bo'lsangiz, xatolik haqida
+> [e'lon](https://github.com/uzinfocom-org/docs/issues/new) qoldirishni
+> unutmang.
 
 ---
 
