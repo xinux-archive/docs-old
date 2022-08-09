@@ -1,7 +1,7 @@
 <p align="center"><a href="https://oss.uzinfocom.uz" target="_blank"><img height="300" width="300" src="./src/.vuepress/public/xinux.png"/></a></p>
 <h2 align="center">Xinux</h2>
 <p align="center"><b><a href="https://oss.uzinfocom.uz" target="_blank">Xinux Jamiyati</a> tomonidan yasalgan Linux qo'llanmasi.</b></p>
-<p align="center"><a href="https://app.netlify.com/sites/xinux/deploys"><img src="https://api.netlify.com/api/v1/badges/07f4eca8-3b27-4b8c-9ec1-bd86567f8613/deploy-status"></a></p>
+<p align="center"><a href="https://github.com/uzinfocom-org/docs/deployments"><img src="https://img.shields.io/github/deployments/uzinfocom-org/docs/production?color=black&label=vercel&logo=vercel&logoColor=white&style=plastic"></a></p>
 
 ## Eslatmalar
 
