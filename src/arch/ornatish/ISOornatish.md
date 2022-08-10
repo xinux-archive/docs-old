@@ -1,4 +1,4 @@
-## Biosga orqali fleshkaga kirish
+## Fleshkaga bios orqali kirish
 
 Obraz yozilgan fleshkaga kompyuterning bios sitemasi orqali kirib olgandan so'ng
 <span style="color: red">root</span>@archiso~ degan yozuv chiqadi. Shundan so'ng
